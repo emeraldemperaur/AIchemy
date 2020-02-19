@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:selectableItemBackground"
+    android:padding="3dp"
+    android:layout_gravity="center"
+    app:cardElevation="13dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:id="@+id/elementIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_launcher_background"
+            android:contentDescription="@string/holderbitmap" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/elementName"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="@string/holder"
+            android:textSize="21sp"
+            android:fontFamily="@font/oswaldmedium"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/elementSymbol"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="@string/holder"
+            android:textSize="19sp"
+            android:fontFamily="@font/oswaldregular"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/atomicNumber"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="@string/holder"
+            android:textSize="19sp"
+            android:fontFamily="@font/oswaldregular"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/atomicWeight"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="@string/holder"
+            android:textSize="19sp"
+            android:fontFamily="@font/oswaldregular"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/elementGroup"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="@string/holder"
+            android:textSize="19sp"
+            android:fontFamily="@font/oswaldlight"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>

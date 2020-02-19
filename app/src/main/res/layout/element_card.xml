@@ -1,0 +1,67 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/element_card_view"
+        android:background="?android:selectableItemBackground"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        app:cardElevation="13dp"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/holder"
+                android:layout_gravity="start"
+                android:layout_margin="3dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/oswaldmedium"
+                android:id="@+id/elementViewName" />
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/holder"
+                android:layout_gravity="start"
+                android:layout_margin="3dp"
+                android:textSize="23sp"
+                android:fontFamily="@font/oswaldlight"
+                android:id="@+id/atomicViewNumber" />
+
+
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/holder"
+                android:layout_gravity="start"
+                android:layout_margin="3dp"
+                android:textSize="19sp"
+                android:fontFamily="@font/oswaldmedium"
+                android:id="@+id/atomicViewWeight" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
