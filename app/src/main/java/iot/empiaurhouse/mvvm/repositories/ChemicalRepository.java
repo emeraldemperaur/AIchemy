@@ -132,6 +132,54 @@ public class ChemicalRepository {
                 .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(51.9961))
                 .setImageUrl("https://lh3.googleusercontent.com/proxy/FFc3pIU-kpsb0ZabF2uai0OxXLqoDhIrcn4KxEX-tCaaTD2TQ4PbslIq6ooMC6wxSZlVZG1jqLmCnEv9T0cSV-mNsIQ_nLw18Gd-Fjie7UJ7fnQV5_Q10Q")
                 .setElementName("Chromium").build();
+        Element manganese = new ElementBuilder().setElementSymbol("Mn").setAtomicNumber(25)
+                .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(54.938043))
+                .setImageUrl("https://upload.wikimedia.org/wikipedia/commons/8/86/Mangan_1-crop.jpg")
+                .setElementName("Manganese").build();
+        Element iron = new ElementBuilder().setElementSymbol("Fe").setAtomicNumber(26)
+                .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(55.845))
+                .setImageUrl("https://science4fun.info/wp-content/uploads/2017/07/iron-element.jpg")
+                .setElementName("Iron").build();
+        Element cobalt = new ElementBuilder().setElementSymbol("Co").setAtomicNumber(27)
+                .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(58.933194))
+                .setImageUrl("https://www.bnnbloomberg.ca/polopoly_fs/1.1157378!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/rocks-containing-cobalt-something-surge-is-exploring-for-around-the-world.jpg")
+                .setElementName("Cobalt").build();
+        Element nickel = new ElementBuilder().setElementSymbol("Ni").setAtomicNumber(28)
+                .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(58.6934))
+                .setImageUrl("https://www.thoughtco.com/thmb/RTDfDbXaVp6aB3t7pBNDT9xPclc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-157695931-58c38b1c3df78c353cf686f9.jpg")
+                .setElementName("Nickel").build();
+        Element copper = new ElementBuilder().setElementSymbol("Cu").setAtomicNumber(29)
+                .setElementGroup("Transition Metals").setAtomicWeight(new BigDecimal(63.546))
+                .setImageUrl("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/NatCopper.jpg/1200px-NatCopper.jpg")
+                .setElementName("Copper").build();
+        Element zinc = new ElementBuilder().setElementSymbol("Zn").setAtomicNumber(30)
+                .setElementGroup("Post Transition Metals").setAtomicWeight(new BigDecimal(65.38))
+                .setImageUrl("https://live.staticflickr.com/1453/26233310435_3d9564da44_b.jpg")
+                .setElementName("Zinc").build();
+        Element gallium = new ElementBuilder().setElementSymbol("Ga").setAtomicNumber(31)
+                .setElementGroup("Post Transition Metals").setAtomicWeight(new BigDecimal(69.723))
+                .setImageUrl("https://nanografi.com/product_images/uploaded_images/gallium.jpg")
+                .setElementName("Gallium").build();
+        Element germanium = new ElementBuilder().setElementSymbol("Ge").setAtomicNumber(32)
+                .setElementGroup("Metalloid").setAtomicWeight(new BigDecimal(72.630))
+                .setImageUrl("https://images-na.ssl-images-amazon.com/images/I/917Csw4C64L._SL1500_.jpg")
+                .setElementName("Germanium").build();
+        Element arsenic = new ElementBuilder().setElementSymbol("As").setAtomicNumber(33)
+                .setElementGroup("Metalloid").setAtomicWeight(new BigDecimal(74.921595))
+                .setImageUrl("https://periodictable.com/Samples/SC.Renierite/s15s.JPG")
+                .setElementName("Arsenic").build();
+        Element selenium = new ElementBuilder().setElementSymbol("Se").setAtomicNumber(34)
+                .setElementGroup("Metalloid").setAtomicWeight(new BigDecimal(78.971))
+                .setImageUrl("https://theodoregray.com/PeriodicTable/Samples/034.4/s15s.JPG")
+                .setElementName("Selenium").build();
+        Element bromine = new ElementBuilder().setElementSymbol("Br").setAtomicNumber(35)
+                .setElementGroup("Non Metals").setAtomicWeight(new BigDecimal(79.904))
+                .setImageUrl("https://theodoregray.com/periodictable/Samples/SC.Bromargyrite/s14s.JPG")
+                .setElementName("Bromine").build();
+        Element krypton = new ElementBuilder().setElementSymbol("Kr").setAtomicNumber(36)
+                .setElementGroup("Noble Gas").setAtomicWeight(new BigDecimal(83.798))
+                .setImageUrl("https://images-na.ssl-images-amazon.com/images/I/61xIUK7sAIL._SL1500_.jpg")
+                .setElementName("Krypton").build();
 
         elementsData.add(hydrogen);
         elementsData.add(helium);
@@ -158,6 +206,20 @@ public class ChemicalRepository {
         elementsData.add(titanium);
         elementsData.add(vanadium);
         elementsData.add(chromium);
+        elementsData.add(manganese);
+        elementsData.add(iron);
+        elementsData.add(cobalt);
+        elementsData.add(nickel);
+        elementsData.add(copper);
+        elementsData.add(zinc);
+        elementsData.add(gallium);
+        elementsData.add(germanium);
+        elementsData.add(arsenic);
+        elementsData.add(selenium);
+        elementsData.add(bromine);
+        elementsData.add(krypton);
+
+
 
     }
 
